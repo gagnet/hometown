@@ -1,0 +1,103 @@
+body {
+  text-align: center;
+  margin: -20px 0px;
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-style: normal;
+  background: (rgb(186, 181, 216));
+}
+
+#intro {
+  background-image: url(images/gotham-skyline.jpg);
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  color: cornsilk;
+  margin-top: 20px;
+  border: solid 20px cornsilk;
+}
+
+h1 {
+  font-size: 260px;
+}
+
+#choices {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 13px;
+}
+
+#fun {
+  margin: 40px 20px 40px 20px;
+  padding: 40px 20px 40px 20px;
+}
+
+h3 {
+  font-size: 40px;
+  border: solid 5px rgb(62, 57, 57);
+  padding: 40px 0px 40px 0px;
+  background-color: rgb(158, 230, 161);
+}
+
+h3:hover {
+  background-color: rgb(226, 157, 208);
+}
+
+p {
+  font-size: 18px;
+}
+
+#to-do {
+  margin-top: -40px;
+  padding-bottom: 130px;
+  color: rgb(37, 38, 47);
+  text-shadow: 1px 1px 40px rgb(103, 189, 126);
+  background-color: rgb(221, 207, 235);
+  border-right: solid 20px cornsilk;
+  border-left: solid 20px cornsilk;
+}
+
+.activites {
+  width: 300px;
+  height: max-content;
+  border: solid 3px wheat;
+  border-radius: 3%;
+}
+
+.options {
+  font-size: 25px;
+  background-color: rgb(158, 230, 161);
+  border: solid 3px rgb(62, 57, 57);
+  padding: 10px;
+}
+
+.options:hover {
+  background-color: rgb(226, 157, 208);
+}
+
+#guide {
+  font-size: 20px;
+  display: flex;
+  padding: 80px 0px 40px 0px;
+  background-color: cadetblue;
+  border: solid 20px cornsilk;
+}
+
+.bruce {
+  display: flex;
+  width: 275px;
+  height: 275px;
+  overflow: hidden;
+  border-radius: 50%;
+  justify-content: center;
+  margin: 0px 0px 40px 40px;
+  border: solid 8px rgb(62, 57, 57);
+}
+
+#quote {
+  width: 500px;
+  justify-content: end;
+  margin-left: 200px;
+}
