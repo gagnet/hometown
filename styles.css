@@ -1,3 +1,5 @@
+/* ELEMENTS */
+
 body {
   text-align: center;
   margin: -20px 0px;
@@ -6,32 +8,8 @@ body {
   font-style: normal;
 }
 
-#intro {
-  background-image: url(images/gotham-skyline.jpg);
-  background-size: cover;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  height: 700px;
-  color: cornsilk;
-  margin-top: 20px;
-  border: solid 20px cornsilk;
-}
-
 h1 {
   font-size: 260px;
-}
-
-#choices {
-  margin-top: -40px;
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 13px;
-}
-
-#fun {
-  margin: 40px 20px 40px 20px;
-  padding: 40px 20px 40px 20px;
 }
 
 h3 {
@@ -61,21 +39,24 @@ p:hover {
   background-color: cornsilk;
 }
 
-#to-do {
-  margin-top: -40px;
-  margin-bottom: -100px;
-  padding-bottom: 130px;
-  border-right: solid 20px cornsilk;
-  border-left: solid 20px cornsilk;
-  background-image: url(images/Gotham_skyline1.webp);
-  background-size: contain;
-}
+/* CLASSES */
 
 .activites {
   width: 300px;
   height: max-content;
   border: solid 3px wheat;
   border-radius: 3%;
+}
+
+.bruce {
+  display: flex;
+  width: 275px;
+  height: 275px;
+  overflow: hidden;
+  border-radius: 50%;
+  justify-content: center;
+  margin: 0px 0px 40px 40px;
+  border: solid 8px rgb(62, 57, 57);
 }
 
 .options {
@@ -91,6 +72,20 @@ p:hover {
   background-color: cornsilk;
 }
 
+/* IDS */
+
+#choices {
+  margin-top: -40px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 13px;
+}
+
+#fun {
+  margin: 40px 20px 40px 20px;
+  padding: 40px 20px 40px 20px;
+}
+
 #guide {
   font-size: 20px;
   display: flex;
@@ -99,15 +94,26 @@ p:hover {
   border: solid 20px cornsilk;
 }
 
-.bruce {
-  display: flex;
-  width: 275px;
-  height: 275px;
+#intro {
+  background-image: url(images/gotham-skyline.jpg);
+  background-size: cover;
   overflow: hidden;
-  border-radius: 50%;
+  display: flex;
   justify-content: center;
-  margin: 0px 0px 40px 40px;
-  border: solid 8px rgb(62, 57, 57);
+  height: 700px;
+  color: cornsilk;
+  margin-top: 20px;
+  border: solid 20px cornsilk;
+}
+
+#to-do {
+  margin-top: -40px;
+  margin-bottom: -100px;
+  padding-bottom: 130px;
+  border-right: solid 20px cornsilk;
+  border-left: solid 20px cornsilk;
+  background-image: url(images/Gotham_skyline1.webp);
+  background-size: contain;
 }
 
 #quote {
